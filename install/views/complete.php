@@ -11,7 +11,7 @@
 	<?php endif; ?>
 
 	<section class="options">
-		<a href="<?php echo $admin_uri; ?>" class="button">Odwiedź panel administratora</a>
+		<a href="<?php echo $admin_uri; ?>" class="button">Odwiedź panel admina</a>
 		<a href="<?php echo $site_uri; ?>" class="right">Odwiedź twoją stronę</a>
 	</section>
 </section>

@@ -25,7 +25,7 @@ return array(
 	'description_explain' => 'Podaj krótki opis posta',
 
 	'status' => 'Status',
-	'status_explain' => 'Nadaj status posta',
+	'status_explain' => 'Określ status posta',
 
 	'category' => 'Kategoria',
 	'category_explain' => 'Wybierz kategorię, w której ma znaleźć się post',

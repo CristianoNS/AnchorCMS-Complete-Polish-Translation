@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pl">
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="utf-8">
 		<title>404</title>
 
-		<style>
+		<style type="text/css">
 			body {
 				margin: 0; padding: 1em 2em;
 				font: 1em/1.625em sans-serif;

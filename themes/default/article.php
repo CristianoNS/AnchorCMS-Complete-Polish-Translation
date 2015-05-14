@@ -9,7 +9,7 @@
 
 			<section class="footnote">
 				<!-- Unfortunately, CSS means everything's got to be inline. -->
-				<p>To jest mój <?php echo numeral(total_articles()); ?> artykuł.<?php if(comments_open()): ?> Użytkownicy napisali <?php echo total_comments() . pluralise(total_comments(), ' komentarzy'); ?>.<?php endif; ?> <?php echo article_custom_field('attribution'); ?></p>
+				<time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo dateV('j f Y',strtotime(article_date())); ?></time>
 			</section>
 		</section>
 
@@ -21,13 +21,13 @@
 				<li class="comment" id="comment-<?php echo comment_id(); ?>">
 					<div class="wrap">
 						<h2><?php echo comment_name(); ?></h2>
-						<time><?php echo relative_time(comment_time()); ?></time>
-
 						<div class="content">
 							<?php echo comment_text(); ?>
 						</div>
-
 						<span class="counter"><?php echo $i; ?></span>
+						<footer class="meta">
+							<time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo dateV('j f Y',strtotime(article_date())); ?></time>
+						</footer>
 					</div>
 				</li>
 				<?php endwhile; ?>
@@ -38,18 +38,18 @@
 				<?php echo comment_form_notifications(); ?>
 
 				<p class="name">
-					<label for="name">Twój nick:</label>
-					<?php echo comment_form_input_name('placeholder="Twój nick"'); ?>
+					<label for="name">Nick</label>
+					<?php echo comment_form_input_name('placeholder="Nick"'); ?>
 				</p>
 
 				<p class="email">
-					<label for="email">Twój adres email:</label>
-					<?php echo comment_form_input_email('placeholder="Twój adres email"'); ?>
+					<label for="email">Email</label>
+					<?php echo comment_form_input_email('placeholder="Email"'); ?>
 				</p>
 
 				<p class="textarea">
-					<label for="text">Twój komentarz:</label>
-					<?php echo comment_form_input_text('placeholder="Twój komentarz"'); ?>
+					<label for="text">Komentarz</label>
+					<?php echo comment_form_input_text('placeholder="Komentarz"'); ?>
 				</p>
 
 				<p class="submit">

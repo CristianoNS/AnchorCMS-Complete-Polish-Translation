@@ -10,13 +10,11 @@
 					<h1>
 						<a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
 					</h1>
-
 					<div class="content">
 						<?php echo article_markdown(); ?>
 					</div>
-
 					<footer class="meta">
-						<time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo date('d-m-Y H:i', article_time()); ?></time>, <?php echo article_author(); ?>
+						<time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo dateV('j f Y',strtotime(article_date())); ?></time>
 					</footer>
 				</article>
 			</li>

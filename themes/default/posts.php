@@ -15,8 +15,8 @@
 						<?php echo article_markdown(); ?>
 					</div>
 
-					<footer>
-						Posted <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?>.
+					<footer class="meta">
+						<time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo date('d-m-Y H:i', article_time()); ?></time>, <?php echo article_author(); ?>
 					</footer>
 				</article>
 			</li>

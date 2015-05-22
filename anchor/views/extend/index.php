@@ -29,7 +29,7 @@
 		<li>
 			<a href="<?php echo Uri::to('admin/extend/plugins'); ?>">
 				<strong>Pluginy</strong>
-				<span>Wkrótce</span>
+				<span>Wtyczki do bloga</span>
 			</a>
 		</li>
 	</ul>

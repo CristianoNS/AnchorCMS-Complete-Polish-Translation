@@ -22,7 +22,6 @@ nav li {list-style: none;font-size: 13px;font-weight: 500;background: #444f5f;co
 nav li:last-child {margin-right: 0;}
 nav li.elapsed {color: #fff;}
 nav ul {height: 1px;margin-top: 10px;border-bottom: 1px solid #576477;}
-
 a {font-weight: 500;color: #a0afc6;text-decoration: none;}
 a:hover {color: #fff;}
 .content {background: #36404e;padding: 40px 50px;border-radius: 5px;}

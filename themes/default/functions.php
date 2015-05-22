@@ -1,49 +1,7 @@
 <?php
 
-/*
-	Custom theme functions
-
-	Note: we recommend you prefix all your functions to avoid any naming
-	collisions or wrap your functions with if function_exists braces.
-*/
-
 function count_words($str) {
 	return count(preg_split('/\s+/', strip_tags($str), null, PREG_SPLIT_NO_EMPTY));
-}
-
-function relative_time($date) {
-	if(is_numeric($date)) $date = '@' . $date;
-
-	$user_timezone = new DateTimeZone(Config::app('timezone'));
-	$date = new DateTime($date, $user_timezone);
-
-	// get current date in user timezone
-	$now = new DateTime('now', $user_timezone);
-
-	$elapsed = $now->format('U') - $date->format('U');
-
-	if($elapsed <= 1) {
-		return 'Just now';
-	}
-
-	$times = array(
-		31104000 => 'rok',
-		2592000 => 'miesiąc',
-		604800 => 'tydzień',
-		86400 => 'dzień',
-		3600 => 'godzina',
-		60 => 'minuta',
-		1 => 'sekunda'
-	);
-
-	foreach($times as $seconds => $title) {
-		$rounded = $elapsed / $seconds;
-
-		if($rounded > 1) {
-			$rounded = round($rounded);
-			return $rounded . ' ' . pluralise($rounded, $title) . ' temu';
-		}
-	}
 }
 
 function dateV($format,$timestamp=null){
@@ -63,14 +21,6 @@ function dateV($format,$timestamp=null){
       $result = strtr($format,array_combine($pieces,$replace));
       return $result;
    }
-}
-
-function twitter_account() {
-	return site_meta('twitter', 'idiot');
-}
-
-function twitter_url() {
-	return 'https://twitter.com/' . twitter_account();
 }
 
 function total_articles() {

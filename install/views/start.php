@@ -14,7 +14,7 @@
 			<p>
 				<label for="lang">
 					<strong>Język</strong>
-					<span class="info">Wybierz język.</span>
+					<span class="info">Wybierz język</span>
 				</label>
 				<select id="lang" name="language">
 					<?php foreach($languages as $lang): ?>
@@ -27,7 +27,7 @@
 			<p>
 				<label for="timezone">
 					<strong>Strefa czasowa</strong>
-					<span class="info">Wybierz aktualny czas.</span>
+					<span class="info">Wybierz strefę czasową</span>
 				</label>
 				<select id="timezone" name="timezone">
 					<?php $set = false; ?>

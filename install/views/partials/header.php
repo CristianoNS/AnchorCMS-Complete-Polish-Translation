@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="pl">
 	<head>
 		<meta charset="utf-8">
@@ -15,9 +15,9 @@
 			<ul>
 				<li class="start database metadata account complete">Język i strefa czasowa</li>
 				<li class="database metadata account complete">Ustawienia bazy danych</li>
-				<li class="metadata account complete">Metadane strony</li>
+				<li class="metadata account complete">Ustawienia strony</li>
 				<li class="account complete">Twoje konto</li>
-				<li class="complete">Koniec!</li>
+				<li class="complete">Koniec</li>
 			</ul>
 		</nav>
 

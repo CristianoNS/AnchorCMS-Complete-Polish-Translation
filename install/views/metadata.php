@@ -2,9 +2,9 @@
 
 <section class="content">
 	<article>
-		<h1>Metadane strony</h1>
+		<h1>Ustawienia strony</h1>
 
-		<p>Aby spersonalizować swój blog Anchor, to zaleca się dodać metadane na temat witryny. To wszystko może zostać zmienione w każdej chwili.</p>
+		<p>Spersonalizuj swój blog.</p>
 	</article>
 
 	<form method="post" action="<?php echo Uri::to('metadata'); ?>" autocomplete="off">
@@ -13,17 +13,17 @@
 		<fieldset>
 			<p>
 				<label for="site_name">Nazwa strony</label>
-				<i>Jak nazywa się twój blog?</i>
+				<i>Naswój swój blog</i>
 
-				<input id="site_name" name="site_name" value="<?php echo Input::previous('site_name', 'My First Anchor Blog'); ?>">
+				<input id="site_name" name="site_name" value="<?php echo Input::previous('site_name', 'Mój Anchor Blog'); ?>">
 			</p>
 
 			<p>
 				<label for="site_description">Opis strony</label>
-				<i>Opisz swój blog.</i>
+				<i>Opisz swój blog</i>
 
 				<textarea id="site_description" name="site_description"><?php echo Input::previous('site_description',
-					'It&rsquo;s not just any blog. It&rsquo;s an Anchor blog.'); ?></textarea>
+					'To nie jest zwykły blog - to Anchor blog'); ?></textarea>
 			</p>
 
 			<p>
@@ -35,7 +35,7 @@
 			<?php if(count($themes) > 1): ?>
 			<p>
 				<label for="theme">Motyw</label>
-				<i>Motyw twojego bloga.</i>
+				<i>Motyw twojego bloga</i>
 				<select id="theme" name="theme">
 					<?php foreach($themes as $dir => $theme): ?>
 					<option value="<?php echo $dir; ?>"><?php echo $theme['name']; ?> by <?php echo $theme['author']; ?></option>
@@ -48,7 +48,7 @@
 
 			<p>
 				<label for="rewrite">Czyste URL</label>
-				<i>Przepisywanie URL.</i>
+				<i>Przepisywanie URL</i>
 
 			<?php if(mod_rewrite()): ?>
 

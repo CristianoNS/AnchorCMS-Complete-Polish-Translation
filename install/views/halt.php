@@ -15,7 +15,7 @@
 		<?php endif; ?>
 
 		<p class="options">
-			<a class="btn" href="<?php echo uri_to('start'); ?>">Spróbuj ponownie.</a>
+			<a class="btn" href="<?php echo uri_to('start'); ?>">Spróbuj ponownie</a>
 		</p>
 	</article>
 </section>

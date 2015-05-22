@@ -2,7 +2,7 @@
 
 <section class="content">
 	<article>
-		<h1>Twoja baza danych</h1>
+		<h1>Baza danych</h1>
 
 		<p>Po pierwsze, musisz mieć bazę danych. Anchor przechowuje w niej wszystkie informacje, dlatego ważne jest, aby wypełnić poniższe pola prawidłowo.</p>
 	</article>
@@ -15,42 +15,42 @@
 				<label for="host">Host bazy danych</label>
 				<input id="host" name="host" value="<?php echo Input::previous('host', '127.0.0.1'); ?>">
 
-				<i>Przeważnie jest to <b>localhost</b> lub <b>127.0.0.1</b>.</i>
+				<i>Przeważnie jest to <b>localhost</b> lub <b>127.0.0.1</b></i>
 			</p>
 
 			<p>
 				<label for="port">Port</label>
 				<input id="port" name="port" value="<?php echo Input::previous('port', '3306'); ?>">
 
-				<i>Zazwyczaj <b>3306</b>.</i>
+				<i>Zazwyczaj <b>3306</b></i>
 			</p>
 
 			<p>
 				<label for="user">Nazwa użytkownika</label>
 				<input id="user" name="user" value="<?php echo Input::previous('user', 'root'); ?>">
 
-				<i>Nazwa użytkownika bazy danych.</i>
+				<i>Nazwa użytkownika bazy danych</i>
 			</p>
 
 			<p>
 				<label for="pass">Hasło</label>
 				<input id="pass" name="pass" value="<?php echo Input::previous('pass'); ?>">
 
-				<i>Pozostaw puste, jeśli nie ma hasła.</i>
+				<i>Pozostaw puste, jeśli nie ma hasła</i>
 			</p>
 
 			<p>
 				<label for="name">Nazwa bazy danych</label>
 				<input id="name" name="name" value="<?php echo Input::previous('name', 'anchor'); ?>">
 
-				<i>Nazwa twojej bazy danych.</i>
+				<i>Nazwa twojej bazy danych</i>
 			</p>
 
 			<p>
 				<label for="prefix">Prefix tabel</label>
 				<input id="prefix" name="prefix" value="<?php echo Input::previous('prefix', 'anchor_'); ?>">
 
-				<i>Nazwa prefixów w bazie danych.</i>
+				<i>Nazwa prefixów w bazie danych</i>
 			</p>
 
 			<p>
@@ -64,7 +64,7 @@
 					<?php endforeach; ?>
 				</select>
 
-				<i>Przeważnie jest to <b>utf8_general_ci</b>.</i>
+				<i>Przeważnie jest to <b>utf8_general_ci</b></i>
 			</p>
 		</fieldset>
 

@@ -1,26 +1,9 @@
 <!DOCTYPE html>
 <html lang="pl">
-	<head>
-		<meta charset="utf-8">
-		<title>500</title>
-
-		<style type="text/css">
-			body {
-				background: #fff;
-				font-family: sans-serif;
-				color: #3f3f3f;
-				margin: 0;
-				padding: 40px;
-			}
-			h1 {
-				padding: 0;
-				margin: 0;
-			}
-			a {
-				color: #444;
-			}
-		</style>
-
+<head>
+	<meta charset="utf-8">
+	<title>500</title>
+	<style type="text/css">body {background: #fff;font-family: sans-serif;color: #3f3f3f;margin: 0;padding: 40px;}h1 {padding: 0;margin: 0;}a {color: #444;}</style>
 		<!--
 		- Unfortunately, Microsoft has added a clever new
 		- "feature" to Internet Explorer. If the text of
@@ -38,10 +21,9 @@
 		- Of course, that's exactly what you're reading
 		- right now.
 		-->
-	</head>
-	<body>
-		<h1>Wewnętrzny błąd serwera</h1>
-
-		<p>Wystąpił błąd podczas przetwarzania żądania.</p>
-	</body>
+</head>
+<body>
+	<h1>Wewnętrzny błąd serwera</h1>
+	<p>Wystąpił błąd podczas przetwarzania żądania</p>
+</body>
 </html>

@@ -42,6 +42,6 @@
 	<body>
 		<h1>Wewnętrzny błąd serwera</h1>
 
-		<p>Wystąpił błąd podczas przetwarzania żądania.</p>
+		<p>Wystąpił błąd podczas przetwarzania żądania</p>
 	</body>
 </html>

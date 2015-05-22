@@ -1,16 +1,9 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="pl">
-	<head>
-		<meta charset="utf-8" />
-		<title>404</title>
-
-		<style>
-			body {
-				margin: 0; padding: 1em 2em;
-				font: 1em/1.625em sans-serif;
-			}
-		</style>
-
+<head>
+	<meta charset="utf-8" />
+	<title>404</title>
+	<style>body {margin: 0; padding: 1em 2em;font: 1em/1.625em sans-serif;}</style>
 		<!--
 		- Unfortunately, Microsoft has added a clever new
 		- "feature" to Internet Explorer. If the text of
@@ -28,14 +21,9 @@
 		- Of course, that's exactly what you're reading
 		- right now.
 		-->
-	</head>
-	<body>
-
-		<h1>404</h1>
-
-		<p>Strony <code><?php echo Uri::current(); ?></code> nie znaleziono.</p>
-
-		<p>Wróć do <a href="/">strony głównej.</a></p>
-
-	</body>
+</head>
+<body>
+	<h1>404</h1>
+	<p>Szukana strona nie została znaleziona. Wróć do <a href="/">strony głównej.</a></p>
+</body>
 </html>

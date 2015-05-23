@@ -1,7 +1,4 @@
-# AnchorCMS-Complete-Polish-Translation
-
-<h2>In Polish:</h2>
-<p>Jest to kompletne tlumaczenie AnchorCMS na jezyk polski. Wersja 0.1</p>
-
-<h2>In English:</h2>
-<p>It is a complete translation into Polish AnchorCMS. Version 0.1.</p>
+<h2>Witam serdecznie!</h2>
+<p>Od pewnego czasu pracowałem nad polską wersją językową dla skryptu blogowego Anchor. Jako, że budowa tego skryptu jest dość specyficzna, spora część tłumaczeń jest poza plikami z tłumaczeniem. Samo ich spolszczenie rozwiązywało sprawę tylko połowicznie, więc zdecydowałem się na ingerencję w resztę plików. W efekcie uzyskałem kompletne tłumaczenie na język polski. W sumie edytowałem 99 plików pod kątem językowym oraz estetycznym (po zmianie dat trzeba było wyrzucić parę rzeczy z kodu, skompresowałem również wszystkie pliki .css).</p>
+<p>Obecna wersja tłumaczenia oznaczona jest wersją 1.0. Myślę, że nie powinno być błędów językowych, ani błędów w strukturach plików. Jeśli znajdziesz jakikolwiek błąd to proszę mnie o tym powiadomić poprzez "pull request".</p>
+<p>Jeśli szukasz polskiego wsparcia, zapraszam na www.nostatic.pl. Na pewno pomożemy!</p>

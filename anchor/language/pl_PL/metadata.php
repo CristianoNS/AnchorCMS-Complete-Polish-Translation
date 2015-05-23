@@ -2,8 +2,8 @@
 
 return array(
 
-	'metadata' => 'Ustawienia metadanych',
-	'metadata_desc' => 'Zarządzanie danymi strony',
+	'metadata' => 'Ustawienia strony',
+	'metadata_desc' => 'Zarządzanie ustawieniami strony',
 
 	'comment_settings' => 'Komentarze',
 	'theme_settings' => 'Wygląd',

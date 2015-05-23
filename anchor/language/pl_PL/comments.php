@@ -21,7 +21,7 @@ return array(
 	'text_missing' => 'Proszę podać treść komentarza', // frontend message (appears on your site!)
 
 	'status' => 'Status',
-	'status_explain' => 'Określ status komentarza',
+	'status_explain' => '',
 
 	// messages
 	'created' => 'Komentarz został dodany', // frontend message (appears on your site!)
@@ -30,6 +30,6 @@ return array(
 
 	// email notification
 	'notify_subject' => 'Nowy komentarz został dodany',
-	'nofity_heading' => 'Nowy komentarz został dodany na Twoją stronę'
+	'nofity_heading' => 'Nowy komentarz został dodany na Twoją stronę',
 
 );

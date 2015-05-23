@@ -40,6 +40,6 @@ return array(
 	// messages
 	'updated' => 'Strona została zaktualizowana',
 	'created' => 'Strona została utworzona',
-	'deleted' => 'Strona została usunięta'
+	'deleted' => 'Strona została usunięta',
 
 );

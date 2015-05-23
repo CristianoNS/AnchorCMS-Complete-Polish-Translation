@@ -42,6 +42,6 @@ return array(
 	// messages
 	'updated' => 'Post został zaktualizowany',
 	'created' => 'Post został utworzony',
-	'deleted' => 'Post został usunięty'
+	'deleted' => 'Post został usunięty',
 
 );

@@ -31,7 +31,7 @@ return array(
 
 	// statuses
 	'draft' => 'Szkice',
-	'archived' => 'Zarchiwizowane',
+	'archived' => 'Archiwizowane',
 	'published' => 'Opublikowane',
 	'pending' => 'Oczekujące',
 	'approved' => 'Zatwierdzone',
@@ -57,7 +57,7 @@ return array(
 
 	// intro
 	'welcome_to_anchor' => 'Witaj w Anchor',
-	'welcome_to_anchor_lets_go' => 'Witaj w Anchor. Naprzód!.',
+	'welcome_to_anchor_lets_go' => 'Witaj w Anchor. Naprzód!',
 	'run_the_installer' => 'Rozpocznij instalację',
 
 	// upgrade

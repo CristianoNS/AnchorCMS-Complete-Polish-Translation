@@ -11,11 +11,11 @@ return array(
 	'variables_desc' => 'Utwórz zmienną z kodem',
 
 	'create_field' => 'Utwórz dodatkowe pole',
-	'editing_custom_field' => 'Edycja pola &ldquo;%s&rdquo;',
+	'editing_custom_field' => 'Edytujesz: &ldquo;%s&rdquo;',
 	'nofields_desc' => 'Brak dodatkowych pól',
 
 	'create_variable' => 'Utwórz zmienną',
-	'editing_variable' => 'Edycja &ldquo;%s&rdquo;',
+	'editing_variable' => 'Edytujesz: &ldquo;%s&rdquo;',
 	'novars_desc' => 'Brak zmiennych',
 
 	// form fields
@@ -62,6 +62,6 @@ return array(
 
 	'field_created' => 'Pole zostało dodane',
 	'field_updated' => 'Pole zostało zaktualizowane',
-	'field_deleted' => 'Pole zostało usunięte'
+	'field_deleted' => 'Pole zostało usunięte',
 
 );
